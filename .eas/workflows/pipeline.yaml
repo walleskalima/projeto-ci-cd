@@ -28,11 +28,3 @@ jobs:
 
     params:
       platform: android
-
-  build_ios:
-    needs: [test]
-    type: build
-
-    params:
-      platform: ios
-      profile: preview
